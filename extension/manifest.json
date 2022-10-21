@@ -1,0 +1,13 @@
+{
+  "name": "remotemysql create databases",
+  "description": "Indica cuando hay encuestas para completar",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {"128": "shark.png"},
+  "content_scripts": [
+    {
+      "matches": ["https://wss.pollfish.com/*", "https://remotemysql.com/databases.php"],
+      "js": ["script.js"]
+    }
+  ]
+}
