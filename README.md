@@ -43,4 +43,4 @@ En el archivo manifest.json lo único relevante es el **content_scripts**
 # Desinstalación
 
 ## Imagen 3
-![segunda parte](./assets/2.png)
+![segunda parte](./assets/3.png)
